@@ -6,7 +6,7 @@ interface IFormInput {
   age: number;
 }
 
-const hook_form3 = () => {
+const hookForm3 = () => {
   const { register, handleSubmit } = useForm<IFormInput>();
   const onSubmit: SubmitHandler<IFormInput> = (data) => console.log(data);
 
@@ -29,4 +29,4 @@ const hook_form3 = () => {
   );
 };
 
-export default hook_form3;
+export default hookForm3;

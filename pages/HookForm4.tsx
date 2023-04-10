@@ -8,7 +8,7 @@ export interface IFormValues {
   Age: number;
 }
 
-const hook_form4 = () => {
+const hookForm4 = () => {
   const { register, handleSubmit } = useForm<IFormValues>();
   const onSubmit: SubmitHandler<IFormValues> = (data) => {
     alert(JSON.stringify(data));
@@ -23,4 +23,4 @@ const hook_form4 = () => {
   );
 };
 
-export default hook_form4;
+export default hookForm4;

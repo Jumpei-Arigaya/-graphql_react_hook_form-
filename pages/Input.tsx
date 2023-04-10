@@ -1,5 +1,5 @@
 import { Path, UseFormRegister } from "react-hook-form";
-import { IFormValues } from "./hook_form4";
+import { IFormValues } from "./HookForm4";
 
 type InputProps = {
   label: Path<IFormValues>;

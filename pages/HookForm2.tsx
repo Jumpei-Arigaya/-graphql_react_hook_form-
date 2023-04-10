@@ -1,5 +1,5 @@
 import { useForm, SubmitHandler } from "react-hook-form";
-const hook_form2 = () => {
+const hookForm2 = () => {
   enum GenderEnum {
     female = "female",
     male = "male",
@@ -34,4 +34,4 @@ const hook_form2 = () => {
   );
 };
 
-export default hook_form2;
+export default hookForm2;

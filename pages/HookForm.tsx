@@ -5,7 +5,7 @@ type Inputs = {
   exampleRequired: string;
 };
 
-const hook_form = () => {
+const hookForm = () => {
   const {
     register,
     handleSubmit,
@@ -34,4 +34,4 @@ const hook_form = () => {
   );
 };
 
-export default hook_form;
+export default hookForm;
